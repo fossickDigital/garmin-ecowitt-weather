@@ -1,0 +1,5 @@
+<properties>
+    <property id="applicationKey" type="string"></property>
+    <property id="apiKey" type="string"></property>
+    <property id="stationMac" type="string"></property>
+</properties>

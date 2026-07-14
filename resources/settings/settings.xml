@@ -1,0 +1,25 @@
+<settings>
+    <setting
+        propertyKey="@Properties.applicationKey"
+        title="@Strings.ApplicationKeyTitle">
+        <settingConfig
+            type="alphaNumeric"
+            required="true"/>
+    </setting>
+
+    <setting
+        propertyKey="@Properties.apiKey"
+        title="@Strings.ApiKeyTitle">
+        <settingConfig
+            type="alphaNumeric"
+            required="true"/>
+    </setting>
+
+    <setting
+        propertyKey="@Properties.stationMac"
+        title="@Strings.StationMacTitle">
+        <settingConfig
+            type="alphaNumeric"
+            required="true"/>
+    </setting>
+</settings>

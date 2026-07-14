@@ -1,0 +1,1542 @@
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [id_monkey,9,27,36]; @symbol_type<0> = [ResourceId,9,40,50]; ]
+        var id_monkey as ResourceId;
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; @symbol_vardef = [LauncherIcon,10,27,39]; @symbol_type<0> = [ResourceId,10,43,53]; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 13; @symbol_moduledef = [Layouts,13,11,18]; ]
+    module Layouts {
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 13; ]
+        <init> {
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 14; @symbol_functiondef = [MainLayout,14,17,27]; @symbol_param<0> = [dc,14,28,30]; @symbol_param<0>_type<0> = [Graphics,14,34,42]; @symbol_param<0>_type<1> = [Dc,14,43,45]; @symbol_return<0> = [Array,14,50,55]; @symbol_return<1> = [WatchUi,14,56,63]; @symbol_return<2> = [Drawable,14,64,72]; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_bin_gen_006_B3291_00_source_Rez_mcgen_14_74_19_8_start:
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 15 12 ]
+            [ "_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_bin_gen_006_B3291_00_source_Rez_mcgen_14_74_19_8_start" "_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_bin_gen_006_B3291_00_source_Rez_mcgen_14_74_19_8_stop" ]
+            %rez_cmp_local_bitmap_id_monkey.1 = local;
+            symbol [ rez_cmp_local_bitmap_id_monkey %rez_cmp_local_bitmap_id_monkey.1 15 16 46 ];
+            symbol [ WatchUi %tmp.3 15 53 60 ];
+            %tmp.3 = getm $.Toybox.WatchUi;
+            symbol [ Bitmap %tmp.4 15 61 67 ];
+            %tmp.4 = getv function ? %tmp.3 :Bitmap;
+            %tmp.5 = newd 4;
+            %tmp.7 = const :identifier;
+            symbol [ identifier %tmp.7 15 70 80 const ];
+            %tmp.8 = "id_monkey";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :rezId;
+            symbol [ rezId %tmp.12 15 96 101 const ];
+            symbol [ $ %tmp.13 15 103 104 ];
+            %tmp.13 = getm $;
+            symbol [ Rez %tmp.14 15 105 108 ];
+            %tmp.14 = getv %tmp.13 :Rez;
+            symbol [ Drawables %tmp.15 15 109 118 ];
+            %tmp.15 = getv %tmp.14 :Drawables;
+            symbol [ id_monkey %tmp.16 15 119 128 ];
+            %tmp.16 = getv %tmp.15 :id_monkey;
+            %tmp.17 = dup %tmp.10;
+            %tmp.18 = aputv %tmp.17 %tmp.12 %tmp.16;
+            %tmp.20 = const :locX;
+            symbol [ locX %tmp.20 15 131 135 const ];
+            symbol [ WatchUi %tmp.21 15 137 144 ];
+            %tmp.21 = getm $.Toybox.WatchUi;
+            symbol [ LAYOUT_HALIGN_CENTER %tmp.22 15 145 165 ];
+            %tmp.22 = getv %tmp.21 :LAYOUT_HALIGN_CENTER;
+            %tmp.23 = dup %tmp.18;
+            %tmp.24 = aputv %tmp.23 %tmp.20 %tmp.22;
+            %tmp.26 = const :locY;
+            symbol [ locY %tmp.26 15 168 172 const ];
+            symbol [ WatchUi %tmp.27 15 174 181 ];
+            %tmp.27 = getm $.Toybox.WatchUi;
+            symbol [ LAYOUT_VALIGN_CENTER %tmp.28 15 182 202 ];
+            %tmp.28 = getv %tmp.27 :LAYOUT_VALIGN_CENTER;
+            %tmp.29 = dup %tmp.24;
+            %tmp.30 = aputv %tmp.29 %tmp.26 %tmp.28;
+            %tmp.1 = newc %tmp.4 (%tmp.30);
+            lputv %rez_cmp_local_bitmap_id_monkey.1 %tmp.1;
+            symbol [ rez_cmp_local_bitmap_id_monkey %rez_cmp_local_bitmap_id_monkey.1 15 16 46 ];
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 16 12 ]
+            %tmp.31 = lgetv %rez_cmp_local_bitmap_id_monkey.1;
+            symbol [ rez_cmp_local_bitmap_id_monkey %tmp.31 16 12 42 ];
+            symbol [ setLocation %tmp.32 16 43 54 ];
+            %tmp.32 = getv function %tmp.31 :setLocation;
+            %tmp.33 = lgetv %dc;
+            symbol [ dc %tmp.33 16 57 59 ];
+            symbol [ getWidth %tmp.34 16 60 68 ];
+            %tmp.34 = getv function %tmp.33 :getWidth;
+            %tmp.35 = invoke %tmp.33 %tmp.34();
+            %tmp.36 = lgetv %rez_cmp_local_bitmap_id_monkey.1;
+            symbol [ rez_cmp_local_bitmap_id_monkey %tmp.36 16 73 103 ];
+            symbol [ width %tmp.37 16 104 109 ];
+            %tmp.37 = getv %tmp.36 :width;
+            %tmp.38 = sub %tmp.35 %tmp.37;
+            %tmp.39 = 0.5;
+            %tmp.40 = mul %tmp.38 %tmp.39;
+            %tmp.41 = lgetv %dc;
+            symbol [ dc %tmp.41 16 121 123 ];
+            symbol [ getHeight %tmp.42 16 124 133 ];
+            %tmp.42 = getv function %tmp.41 :getHeight;
+            %tmp.43 = invoke %tmp.41 %tmp.42();
+            %tmp.44 = lgetv %rez_cmp_local_bitmap_id_monkey.1;
+            symbol [ rez_cmp_local_bitmap_id_monkey %tmp.44 16 138 168 ];
+            symbol [ height %tmp.45 16 169 175 ];
+            %tmp.45 = getv %tmp.44 :height;
+            %tmp.46 = sub %tmp.43 %tmp.45;
+            %tmp.47 = 0.5;
+            %tmp.48 = mul %tmp.46 %tmp.47;
+            invoke %tmp.31 %tmp.32(%tmp.40, %tmp.48);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 18 12 ]
+            %tmp.49 = newa 1 Array<WatchUi.Drawable>;
+            symbol [ Array %tmp.49 18 55 60 ];
+            symbol [ WatchUi %tmp.49 18 61 68 ];
+            symbol [ Drawable %tmp.49 18 69 77 ];
+            %tmp.50 = lgetv %rez_cmp_local_bitmap_id_monkey.1;
+            symbol [ rez_cmp_local_bitmap_id_monkey %tmp.50 18 20 50 ];
+            %tmp.51 = dup %tmp.49;
+            %tmp.52 = aputv %tmp.51 0 %tmp.50;
+            ret %tmp.52;
+_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_bin_gen_006_B3291_00_source_Rez_mcgen_14_74_19_8_stop:
+        }
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 22; @symbol_moduledef = [Strings,22,11,18]; ]
+    module Strings {
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 22; ]
+        <init> {
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; @symbol_vardef = [StationMacTitle,23,27,42]; @symbol_type<0> = [ResourceId,23,46,56]; ]
+        var StationMacTitle as ResourceId;
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; @symbol_vardef = [ApplicationKeyTitle,24,27,46]; @symbol_type<0> = [ResourceId,24,50,60]; ]
+        var ApplicationKeyTitle as ResourceId;
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; @symbol_vardef = [ApiKeyTitle,25,27,38]; @symbol_type<0> = [ResourceId,25,42,52]; ]
+        var ApiKeyTitle as ResourceId;
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; @symbol_vardef = [AppName,26,27,34]; @symbol_type<0> = [ResourceId,26,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 29; @symbol_moduledef = [Styles,29,11,17]; ]
+    module Styles {
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 29; ]
+        <init> {
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 30; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,30,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 30; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 31; @position = 18; @symbol_constdef = [exclude,31,18,25]; @symbol_type<0> = [Boolean,31,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 34; @symbol_moduledef = [system_size__menu_header,34,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 34; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 35; @position = 18; @symbol_constdef = [width,35,18,23]; @symbol_type<0> = [Number,35,27,33]; ]
+            const width as Number = 280;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 36; @position = 18; @symbol_constdef = [height,36,18,24]; @symbol_type<0> = [Number,36,28,34]; ]
+            const height as Number = 87;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 39; @symbol_moduledef = [system_loc__hint_button_left_bottom,39,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 39; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 40; @position = 18; @symbol_constdef = [x,40,18,19]; @symbol_type<0> = [Number,40,23,29]; ]
+            const x as Number = 11;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 41; @position = 18; @symbol_constdef = [y,41,18,19]; @symbol_type<0> = [Number,41,23,29]; ]
+            const y as Number = 185;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 44; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,44,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 44; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 45; @position = 18; @symbol_constdef = [exclude,45,18,25]; @symbol_type<0> = [Boolean,45,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 48; @symbol_moduledef = [prompt_loc__body_no_title,48,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 48; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 49; @position = 18; @symbol_constdef = [x,49,18,19]; @symbol_type<0> = [Number,49,23,29]; ]
+            const x as Number = 28;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 50; @position = 18; @symbol_constdef = [y,50,18,19]; @symbol_type<0> = [Number,50,23,29]; ]
+            const y as Number = 28;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 53; @symbol_moduledef = [system_icon_dark__about,53,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 53; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 54; @position = 18; @symbol_constdef = [filename,54,18,26]; @symbol_type<0> = [String,54,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__about.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 55; @position = 18; @symbol_constdef = [compress,55,18,26]; @symbol_type<0> = [String,55,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 56; @position = 18; @symbol_constdef = [dithering,56,18,27]; @symbol_type<0> = [String,56,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 57; @position = 18; @symbol_constdef = [automaticPalette,57,18,34]; @symbol_type<0> = [String,57,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 60; @symbol_moduledef = [system_icon_light__question,60,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 60; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 61; @position = 18; @symbol_constdef = [filename,61,18,26]; @symbol_type<0> = [String,61,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__question.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 62; @position = 18; @symbol_constdef = [dithering,62,18,27]; @symbol_type<0> = [String,62,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 65; @symbol_moduledef = [system_loc__hint_button_left_top,65,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 65; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 66; @position = 18; @symbol_constdef = [exclude,66,18,25]; @symbol_type<0> = [Boolean,66,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 69; @symbol_moduledef = [prompt_font__title,69,15,33]; ]
+        module prompt_font__title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 69; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 70 18 ]
+                symbol [ Graphics %tmp.53 70 34 42 ];
+                %tmp.53 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.54 70 43 62 ];
+                %tmp.54 = getv %tmp.53 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.55 70 63 71 ];
+                %tmp.55 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.56 70 72 92 ];
+                %tmp.56 = getv %tmp.55 :TEXT_JUSTIFY_VCENTER;
+                %tmp.57 = bitor %tmp.54 %tmp.56;
+                putv self :justification %tmp.57;
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 71 18 ]
+                symbol [ Graphics %tmp.58 71 25 33 ];
+                %tmp.58 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.59 71 34 44 ];
+                %tmp.59 = getv %tmp.58 :FONT_XTINY;
+                putv self :font %tmp.59;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 70; @position = 18; @symbol_constdef = [justification,70,18,31]; ]
+            const justification;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 71; @position = 18; @symbol_constdef = [font,71,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 74; @symbol_moduledef = [system_icon_dark__discard,74,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 74; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 75; @position = 18; @symbol_constdef = [filename,75,18,26]; @symbol_type<0> = [String,75,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__discard.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [compress,76,18,26]; @symbol_type<0> = [String,76,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 77; @position = 18; @symbol_constdef = [dithering,77,18,27]; @symbol_type<0> = [String,77,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 78; @position = 18; @symbol_constdef = [automaticPalette,78,18,34]; @symbol_type<0> = [String,78,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 81; @symbol_moduledef = [system_size__menu_item,81,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 81; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 82; @position = 18; @symbol_constdef = [width,82,18,23]; @symbol_type<0> = [Number,82,27,33]; ]
+            const width as Number = 280;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 83; @position = 18; @symbol_constdef = [height,83,18,24]; @symbol_type<0> = [Number,83,28,34]; ]
+            const height as Number = 73;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 86; @symbol_moduledef = [system_color_dark__text,86,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 86; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 88 18 ]
+                symbol [ Graphics %tmp.60 88 31 39 ];
+                %tmp.60 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.61 88 40 57 ];
+                %tmp.61 = getv %tmp.60 :COLOR_TRANSPARENT;
+                putv self :background %tmp.61;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 87; @position = 18; @symbol_constdef = [color,87,18,23]; @symbol_type<0> = [Number,87,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 88; @position = 18; @symbol_constdef = [background,88,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 91; @symbol_moduledef = [system_icon_destructive__discard,91,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 91; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 92; @position = 18; @symbol_constdef = [filename,92,18,26]; @symbol_type<0> = [String,92,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__discard.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 93; @position = 18; @symbol_constdef = [dithering,93,18,27]; @symbol_type<0> = [String,93,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 96; @symbol_moduledef = [system_icon_dark__hint_action_menu,96,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 96; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 97; @position = 18; @symbol_constdef = [filename,97,18,26]; @symbol_type<0> = [String,97,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 98; @position = 18; @symbol_constdef = [dithering,98,18,27]; @symbol_type<0> = [String,98,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 101; @symbol_moduledef = [prompt_size__title,101,15,33]; ]
+        module prompt_size__title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 101; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 102; @position = 18; @symbol_constdef = [width,102,18,23]; @symbol_type<0> = [Number,102,27,33]; ]
+            const width as Number = 224;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 103; @position = 18; @symbol_constdef = [height,103,18,24]; @symbol_type<0> = [Number,103,28,34]; ]
+            const height as Number = 42;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 106; @symbol_moduledef = [confirmation_font__body,106,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 106; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 107 18 ]
+                symbol [ Graphics %tmp.62 107 34 42 ];
+                %tmp.62 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.63 107 43 62 ];
+                %tmp.63 = getv %tmp.62 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.64 107 63 71 ];
+                %tmp.64 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.65 107 72 92 ];
+                %tmp.65 = getv %tmp.64 :TEXT_JUSTIFY_VCENTER;
+                %tmp.66 = bitor %tmp.63 %tmp.65;
+                putv self :justification %tmp.66;
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 108 18 ]
+                symbol [ Graphics %tmp.67 108 25 33 ];
+                %tmp.67 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.68 108 34 43 ];
+                %tmp.68 = getv %tmp.67 :FONT_TINY;
+                putv self :font %tmp.68;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 107; @position = 18; @symbol_constdef = [justification,107,18,31]; ]
+            const justification;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 108; @position = 18; @symbol_constdef = [font,108,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 111; @symbol_moduledef = [system_color_dark__background,111,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 111; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 112; @position = 18; @symbol_constdef = [color,112,18,23]; @symbol_type<0> = [Number,112,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [background,113,18,28]; @symbol_type<0> = [Number,113,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 116; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,116,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 116; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 117; @position = 18; @symbol_constdef = [filename,117,18,26]; @symbol_type<0> = [String,117,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [dithering,118,18,27]; @symbol_type<0> = [String,118,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 121; @symbol_moduledef = [system_size__launch_icon,121,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 121; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [scaleX,122,18,24]; @symbol_type<0> = [Number,122,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [scaleY,123,18,24]; @symbol_type<0> = [Number,123,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 124; @position = 18; @symbol_constdef = [scaleRelativeTo,124,18,33]; @symbol_type<0> = [String,124,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 127; @symbol_moduledef = [confirmation_input__confirm,127,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 127; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 128 18 ]
+                symbol [ WatchUi %tmp.69 128 27 34 ];
+                %tmp.69 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.70 128 35 44 ];
+                %tmp.70 = getv %tmp.69 :KEY_ENTER;
+                putv self :button %tmp.70;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [button,128,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 131; @symbol_moduledef = [prompt_font__body_with_title,131,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 131; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 132 18 ]
+                symbol [ Graphics %tmp.71 132 34 42 ];
+                %tmp.71 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.72 132 43 62 ];
+                %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.72;
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 133 18 ]
+                symbol [ Graphics %tmp.73 133 25 33 ];
+                %tmp.73 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.74 133 34 43 ];
+                %tmp.74 = getv %tmp.73 :FONT_TINY;
+                putv self :font %tmp.74;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [justification,132,18,31]; ]
+            const justification;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [font,133,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 136; @symbol_moduledef = [confirmation_loc__body,136,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 136; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [x,137,18,19]; @symbol_type<0> = [Number,137,23,29]; ]
+            const x as Number = 56;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 138; @position = 18; @symbol_constdef = [y,138,18,19]; @symbol_type<0> = [Number,138,23,29]; ]
+            const y as Number = 56;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 141; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,141,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 141; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [filename,142,18,26]; @symbol_type<0> = [String,142,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [dithering,143,18,27]; @symbol_type<0> = [String,143,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 146; @symbol_moduledef = [prompt_color_dark__background,146,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 146; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [color,147,18,23]; @symbol_type<0> = [Number,147,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [background,148,18,28]; @symbol_type<0> = [Number,148,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 151; @symbol_moduledef = [system_icon_destructive__hint_action_menu,151,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 151; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 152; @position = 18; @symbol_constdef = [filename,152,18,26]; @symbol_type<0> = [String,152,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 153; @position = 18; @symbol_constdef = [dithering,153,18,27]; @symbol_type<0> = [String,153,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 156; @symbol_moduledef = [system_loc__hint_action_menu,156,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 156; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [x,157,18,19]; @symbol_type<0> = [Number,157,23,29]; ]
+            const x as Number = 242;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [y,158,18,19]; @symbol_type<0> = [Number,158,23,29]; ]
+            const y as Number = 52;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 161; @symbol_moduledef = [confirmation_icon__hint_confirm,161,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [filename,162,18,26]; @symbol_type<0> = [String,162,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 163; @position = 18; @symbol_constdef = [dithering,163,18,27]; @symbol_type<0> = [String,163,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 166; @symbol_moduledef = [system_loc__hint_button_left_middle,166,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [x,167,18,19]; @symbol_type<0> = [Number,167,23,29]; ]
+            const x as Number = 3;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 168; @position = 18; @symbol_constdef = [y,168,18,19]; @symbol_type<0> = [Number,168,23,29]; ]
+            const y as Number = 116;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 171; @symbol_moduledef = [prompt_size__body_no_title,171,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 171; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 172; @position = 18; @symbol_constdef = [width,172,18,23]; @symbol_type<0> = [Number,172,27,33]; ]
+            const width as Number = 224;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [height,173,18,24]; @symbol_type<0> = [Number,173,28,34]; ]
+            const height as Number = 224;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 176; @symbol_moduledef = [system_icon_light__hint_button_left_top,176,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 176; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [filename,177,18,26]; @symbol_type<0> = [String,177,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 178; @position = 18; @symbol_constdef = [dithering,178,18,27]; @symbol_type<0> = [String,178,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 181; @symbol_moduledef = [prompt_color_light__background,181,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 181; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [color,182,18,23]; @symbol_type<0> = [Number,182,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [background,183,18,28]; @symbol_type<0> = [Number,183,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 186; @symbol_moduledef = [confirmation_input__delete,186,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 186; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 187 18 ]
+                symbol [ WatchUi %tmp.75 187 27 34 ];
+                %tmp.75 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.76 187 35 44 ];
+                %tmp.76 = getv %tmp.75 :KEY_ENTER;
+                putv self :button %tmp.76;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [button,187,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 190; @symbol_moduledef = [system_icon_dark__hint_button_left_top,190,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 190; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 191; @position = 18; @symbol_constdef = [filename,191,18,26]; @symbol_type<0> = [String,191,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [dithering,192,18,27]; @symbol_type<0> = [String,192,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 195; @symbol_moduledef = [system_input__action_menu,195,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 195; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 196 18 ]
+                symbol [ WatchUi %tmp.77 196 27 34 ];
+                %tmp.77 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.78 196 35 44 ];
+                %tmp.78 = getv %tmp.77 :KEY_ENTER;
+                putv self :button %tmp.78;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 196; @position = 18; @symbol_constdef = [button,196,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 199; @symbol_moduledef = [system_icon_light__save,199,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 199; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 200; @position = 18; @symbol_constdef = [filename,200,18,26]; @symbol_type<0> = [String,200,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__save.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 201; @position = 18; @symbol_constdef = [dithering,201,18,27]; @symbol_type<0> = [String,201,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 204; @symbol_moduledef = [prompt_color_light__body,204,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 204; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 206 18 ]
+                symbol [ Graphics %tmp.79 206 31 39 ];
+                %tmp.79 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.80 206 40 57 ];
+                %tmp.80 = getv %tmp.79 :COLOR_TRANSPARENT;
+                putv self :background %tmp.80;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 205; @position = 18; @symbol_constdef = [color,205,18,23]; @symbol_type<0> = [Number,205,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 206; @position = 18; @symbol_constdef = [background,206,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 209; @symbol_moduledef = [system_loc__subwindow,209,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 209; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 210; @position = 18; @symbol_constdef = [exclude,210,18,25]; @symbol_type<0> = [Boolean,210,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 213; @symbol_moduledef = [system_icon_light__warning,213,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 213; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 214; @position = 18; @symbol_constdef = [filename,214,18,26]; @symbol_type<0> = [String,214,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__warning.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 215; @position = 18; @symbol_constdef = [dithering,215,18,27]; @symbol_type<0> = [String,215,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 218; @symbol_moduledef = [confirmation_color_light__body,218,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 218; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 220 18 ]
+                symbol [ Graphics %tmp.81 220 31 39 ];
+                %tmp.81 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.82 220 40 57 ];
+                %tmp.82 = getv %tmp.81 :COLOR_TRANSPARENT;
+                putv self :background %tmp.82;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 219; @position = 18; @symbol_constdef = [color,219,18,23]; @symbol_type<0> = [Number,219,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [background,220,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 223; @symbol_moduledef = [confirmation_icon_light__hint_keep,223,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 223; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 224; @position = 18; @symbol_constdef = [filename,224,18,26]; @symbol_type<0> = [String,224,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [dithering,225,18,27]; @symbol_type<0> = [String,225,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 228; @symbol_moduledef = [activity_color_light__background,228,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 228; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 229; @position = 18; @symbol_constdef = [color,229,18,23]; @symbol_type<0> = [Number,229,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 230; @position = 18; @symbol_constdef = [background,230,18,28]; @symbol_type<0> = [Number,230,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 233; @symbol_moduledef = [system_icon_positive__hint_button_right_top,233,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 233; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 234; @position = 18; @symbol_constdef = [filename,234,18,26]; @symbol_type<0> = [String,234,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [dithering,235,18,27]; @symbol_type<0> = [String,235,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 238; @symbol_moduledef = [system_size__screen,238,15,34]; ]
+        module system_size__screen {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 238; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 239; @position = 18; @symbol_constdef = [width,239,18,23]; @symbol_type<0> = [Number,239,27,33]; ]
+            const width as Number = 280;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [height,240,18,24]; @symbol_type<0> = [Number,240,28,34]; ]
+            const height as Number = 280;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 243; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,243,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 243; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [filename,244,18,26]; @symbol_type<0> = [String,244,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [dithering,245,18,27]; @symbol_type<0> = [String,245,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 248; @symbol_moduledef = [system_color_light__background,248,15,45]; ]
+        module system_color_light__background {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 248; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 249; @position = 18; @symbol_constdef = [color,249,18,23]; @symbol_type<0> = [Number,249,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [background,250,18,28]; @symbol_type<0> = [Number,250,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 253; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,253,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 253; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 254; @position = 18; @symbol_constdef = [filename,254,18,26]; @symbol_type<0> = [String,254,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [dithering,255,18,27]; @symbol_type<0> = [String,255,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 258; @symbol_moduledef = [confirmation_loc__hint_confirm,258,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 258; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 259; @position = 18; @symbol_constdef = [x,259,18,19]; @symbol_type<0> = [Number,259,23,29]; ]
+            const x as Number = 226;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [y,260,18,19]; @symbol_type<0> = [Number,260,23,29]; ]
+            const y as Number = 52;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 263; @symbol_moduledef = [activity_color_dark__text,263,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 263; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 265 18 ]
+                symbol [ Graphics %tmp.83 265 31 39 ];
+                %tmp.83 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.84 265 40 57 ];
+                %tmp.84 = getv %tmp.83 :COLOR_TRANSPARENT;
+                putv self :background %tmp.84;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [color,264,18,23]; @symbol_type<0> = [Number,264,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [background,265,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 268; @symbol_moduledef = [confirmation_input__keep,268,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 268; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 269 18 ]
+                symbol [ WatchUi %tmp.85 269 27 34 ];
+                %tmp.85 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.86 269 35 43 ];
+                %tmp.86 = getv %tmp.85 :KEY_DOWN;
+                putv self :button %tmp.86;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 269; @position = 18; @symbol_constdef = [button,269,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 272; @symbol_moduledef = [prompt_loc__body_with_title,272,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 272; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 273; @position = 18; @symbol_constdef = [x,273,18,19]; @symbol_type<0> = [Number,273,23,29]; ]
+            const x as Number = 28;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [y,274,18,19]; @symbol_type<0> = [Number,274,23,29]; ]
+            const y as Number = 84;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 277; @symbol_moduledef = [system_icon_dark__search,277,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 277; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [filename,278,18,26]; @symbol_type<0> = [String,278,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__search.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [compress,279,18,26]; @symbol_type<0> = [String,279,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [dithering,280,18,27]; @symbol_type<0> = [String,280,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 281; @position = 18; @symbol_constdef = [automaticPalette,281,18,34]; @symbol_type<0> = [String,281,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 284; @symbol_moduledef = [activity_color_light__text,284,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 284; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 286 18 ]
+                symbol [ Graphics %tmp.87 286 31 39 ];
+                %tmp.87 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.88 286 40 57 ];
+                %tmp.88 = getv %tmp.87 :COLOR_TRANSPARENT;
+                putv self :background %tmp.88;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [color,285,18,23]; @symbol_type<0> = [Number,285,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 286; @position = 18; @symbol_constdef = [background,286,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 289; @symbol_moduledef = [confirmation_icon__hint_keep,289,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 289; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [filename,290,18,26]; @symbol_type<0> = [String,290,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [dithering,291,18,27]; @symbol_type<0> = [String,291,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 294; @symbol_moduledef = [system_icon_dark__save,294,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 294; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 295; @position = 18; @symbol_constdef = [filename,295,18,26]; @symbol_type<0> = [String,295,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__save.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 296; @position = 18; @symbol_constdef = [compress,296,18,26]; @symbol_type<0> = [String,296,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 297; @position = 18; @symbol_constdef = [dithering,297,18,27]; @symbol_type<0> = [String,297,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [automaticPalette,298,18,34]; @symbol_type<0> = [String,298,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 301; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,301,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 301; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 302; @position = 18; @symbol_constdef = [filename,302,18,26]; @symbol_type<0> = [String,302,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 303; @position = 18; @symbol_constdef = [dithering,303,18,27]; @symbol_type<0> = [String,303,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 306; @symbol_moduledef = [system_icon_light__search,306,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 306; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 307; @position = 18; @symbol_constdef = [filename,307,18,26]; @symbol_type<0> = [String,307,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__search.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 308; @position = 18; @symbol_constdef = [dithering,308,18,27]; @symbol_type<0> = [String,308,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 311; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,311,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 311; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 312; @position = 18; @symbol_constdef = [filename,312,18,26]; @symbol_type<0> = [String,312,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [dithering,313,18,27]; @symbol_type<0> = [String,313,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 316; @symbol_moduledef = [system_icon_positive__hint_button_left_top,316,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 316; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 317; @position = 18; @symbol_constdef = [filename,317,18,26]; @symbol_type<0> = [String,317,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 318; @position = 18; @symbol_constdef = [dithering,318,18,27]; @symbol_type<0> = [String,318,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 321; @symbol_moduledef = [system_loc__hint_button_right_bottom,321,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 321; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 322; @position = 18; @symbol_constdef = [x,322,18,19]; @symbol_type<0> = [Number,322,23,29]; ]
+            const x as Number = 242;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 323; @position = 18; @symbol_constdef = [y,323,18,19]; @symbol_type<0> = [Number,323,23,29]; ]
+            const y as Number = 185;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 326; @symbol_moduledef = [confirmation_icon_dark__hint_reject,326,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 326; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 327; @position = 18; @symbol_constdef = [filename,327,18,26]; @symbol_type<0> = [String,327,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [dithering,328,18,27]; @symbol_type<0> = [String,328,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 331; @symbol_moduledef = [confirmation_color_dark__body,331,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 331; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 333 18 ]
+                symbol [ Graphics %tmp.89 333 31 39 ];
+                %tmp.89 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.90 333 40 57 ];
+                %tmp.90 = getv %tmp.89 :COLOR_TRANSPARENT;
+                putv self :background %tmp.90;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [color,332,18,23]; @symbol_type<0> = [Number,332,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [background,333,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 336; @symbol_moduledef = [confirmation_icon_light__hint_confirm,336,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 336; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [filename,337,18,26]; @symbol_type<0> = [String,337,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [dithering,338,18,27]; @symbol_type<0> = [String,338,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 341; @symbol_moduledef = [prompt_color_dark__title,341,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 341; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 343 18 ]
+                symbol [ Graphics %tmp.91 343 31 39 ];
+                %tmp.91 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.92 343 40 57 ];
+                %tmp.92 = getv %tmp.91 :COLOR_TRANSPARENT;
+                putv self :background %tmp.92;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [color,342,18,23]; @symbol_type<0> = [Number,342,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [background,343,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 346; @symbol_moduledef = [system_icon_destructive__cancel,346,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 346; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 347; @position = 18; @symbol_constdef = [filename,347,18,26]; @symbol_type<0> = [String,347,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [dithering,348,18,27]; @symbol_type<0> = [String,348,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 351; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,351,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 351; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [filename,352,18,26]; @symbol_type<0> = [String,352,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [dithering,353,18,27]; @symbol_type<0> = [String,353,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 356; @symbol_moduledef = [prompt_loc__title,356,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 356; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [x,357,18,19]; @symbol_type<0> = [Number,357,23,29]; ]
+            const x as Number = 28;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 358; @position = 18; @symbol_constdef = [y,358,18,19]; @symbol_type<0> = [Number,358,23,29]; ]
+            const y as Number = 21;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 361; @symbol_moduledef = [confirmation_font_enhanced_readability__body,361,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 361; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 362; @position = 18; @symbol_constdef = [exclude,362,18,25]; @symbol_type<0> = [Boolean,362,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 365; @symbol_moduledef = [prompt_color_light__title,365,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 365; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 367 18 ]
+                symbol [ Graphics %tmp.93 367 31 39 ];
+                %tmp.93 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.94 367 40 57 ];
+                %tmp.94 = getv %tmp.93 :COLOR_TRANSPARENT;
+                putv self :background %tmp.94;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 366; @position = 18; @symbol_constdef = [color,366,18,23]; @symbol_type<0> = [Number,366,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 367; @position = 18; @symbol_constdef = [background,367,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 370; @symbol_moduledef = [system_icon_dark__hint_button_right_top,370,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 370; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 371; @position = 18; @symbol_constdef = [filename,371,18,26]; @symbol_type<0> = [String,371,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [dithering,372,18,27]; @symbol_type<0> = [String,372,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 375; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,375,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [filename,376,18,26]; @symbol_type<0> = [String,376,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [dithering,377,18,27]; @symbol_type<0> = [String,377,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 380; @symbol_moduledef = [confirmation_icon_dark__hint_keep,380,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 380; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 381; @position = 18; @symbol_constdef = [filename,381,18,26]; @symbol_type<0> = [String,381,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 382; @position = 18; @symbol_constdef = [dithering,382,18,27]; @symbol_type<0> = [String,382,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 385; @symbol_moduledef = [system_icon_light__cancel,385,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 385; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 386; @position = 18; @symbol_constdef = [filename,386,18,26]; @symbol_type<0> = [String,386,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__cancel.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 387; @position = 18; @symbol_constdef = [dithering,387,18,27]; @symbol_type<0> = [String,387,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 390; @symbol_moduledef = [confirmation_icon_light__hint_reject,390,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 390; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [filename,391,18,26]; @symbol_type<0> = [String,391,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [dithering,392,18,27]; @symbol_type<0> = [String,392,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 395; @symbol_moduledef = [system_icon_light__about,395,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 395; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [filename,396,18,26]; @symbol_type<0> = [String,396,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__about.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [dithering,397,18,27]; @symbol_type<0> = [String,397,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 400; @symbol_moduledef = [system_size__toast_icon,400,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 400; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 401; @position = 18; @symbol_constdef = [scaleX,401,18,24]; @symbol_type<0> = [Number,401,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [scaleY,402,18,24]; @symbol_type<0> = [Number,402,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 403; @position = 18; @symbol_constdef = [scaleRelativeTo,403,18,33]; @symbol_type<0> = [String,403,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 406; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,406,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [exclude,407,18,25]; @symbol_type<0> = [Boolean,407,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 410; @symbol_moduledef = [confirmation_icon__hint_reject,410,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 410; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [filename,411,18,26]; @symbol_type<0> = [String,411,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [dithering,412,18,27]; @symbol_type<0> = [String,412,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 415; @symbol_moduledef = [system_icon_light__hint_action_menu,415,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [filename,416,18,26]; @symbol_type<0> = [String,416,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [dithering,417,18,27]; @symbol_type<0> = [String,417,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 420; @symbol_moduledef = [system_icon_light__hint_button_right_middle,420,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [exclude,421,18,25]; @symbol_type<0> = [Boolean,421,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 424; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,424,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 424; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 425; @position = 18; @symbol_constdef = [exclude,425,18,25]; @symbol_type<0> = [Boolean,425,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 428; @symbol_moduledef = [confirmation_loc__hint_reject,428,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 428; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 429; @position = 18; @symbol_constdef = [x,429,18,19]; @symbol_type<0> = [Number,429,23,29]; ]
+            const x as Number = 11;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 430; @position = 18; @symbol_constdef = [y,430,18,19]; @symbol_type<0> = [Number,430,23,29]; ]
+            const y as Number = 185;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 431; @position = 18; @symbol_constdef = [horizontalJustification,431,18,41]; @symbol_type<0> = [String,431,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 434; @symbol_moduledef = [confirmation_icon_dark__hint_delete,434,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 434; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [filename,435,18,26]; @symbol_type<0> = [String,435,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [dithering,436,18,27]; @symbol_type<0> = [String,436,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 439; @symbol_moduledef = [activity_color_dark__background,439,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 439; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [color,440,18,23]; @symbol_type<0> = [Number,440,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [background,441,18,28]; @symbol_type<0> = [Number,441,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 444; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,444,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [filename,445,18,26]; @symbol_type<0> = [String,445,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 446; @position = 18; @symbol_constdef = [dithering,446,18,27]; @symbol_type<0> = [String,446,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 449; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,449,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 449; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 450; @position = 18; @symbol_constdef = [filename,450,18,26]; @symbol_type<0> = [String,450,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 451; @position = 18; @symbol_constdef = [dithering,451,18,27]; @symbol_type<0> = [String,451,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 454; @symbol_moduledef = [system_size__menu_icon,454,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 454; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [scaleX,455,18,24]; @symbol_type<0> = [Number,455,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 456; @position = 18; @symbol_constdef = [scaleY,456,18,24]; @symbol_type<0> = [Number,456,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 457; @position = 18; @symbol_constdef = [scaleRelativeTo,457,18,33]; @symbol_type<0> = [String,457,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 460; @symbol_moduledef = [system_icon_destructive__warning,460,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [filename,461,18,26]; @symbol_type<0> = [String,461,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__warning.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 462; @position = 18; @symbol_constdef = [dithering,462,18,27]; @symbol_type<0> = [String,462,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 465; @symbol_moduledef = [system_loc__hint_button_right_middle,465,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 465; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [exclude,466,18,25]; @symbol_type<0> = [Boolean,466,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 469; @symbol_moduledef = [system_icon_dark__cancel,469,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [filename,470,18,26]; @symbol_type<0> = [String,470,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__cancel.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [compress,471,18,26]; @symbol_type<0> = [String,471,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 472; @position = 18; @symbol_constdef = [dithering,472,18,27]; @symbol_type<0> = [String,472,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 473; @position = 18; @symbol_constdef = [automaticPalette,473,18,34]; @symbol_type<0> = [String,473,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 476; @symbol_moduledef = [prompt_size__body_with_title,476,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 476; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 477; @position = 18; @symbol_constdef = [width,477,18,23]; @symbol_type<0> = [Number,477,27,33]; ]
+            const width as Number = 224;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 478; @position = 18; @symbol_constdef = [height,478,18,24]; @symbol_type<0> = [Number,478,28,34]; ]
+            const height as Number = 168;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 481; @symbol_moduledef = [system_loc__hint_button_right_top,481,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 481; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 482; @position = 18; @symbol_constdef = [x,482,18,19]; @symbol_type<0> = [Number,482,23,29]; ]
+            const x as Number = 242;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 483; @position = 18; @symbol_constdef = [y,483,18,19]; @symbol_type<0> = [Number,483,23,29]; ]
+            const y as Number = 52;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 486; @symbol_moduledef = [system_color_light__text,486,15,39]; ]
+        module system_color_light__text {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 486; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 488 18 ]
+                symbol [ Graphics %tmp.95 488 31 39 ];
+                %tmp.95 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.96 488 40 57 ];
+                %tmp.96 = getv %tmp.95 :COLOR_TRANSPARENT;
+                putv self :background %tmp.96;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 487; @position = 18; @symbol_constdef = [color,487,18,23]; @symbol_type<0> = [Number,487,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 488; @position = 18; @symbol_constdef = [background,488,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 491; @symbol_moduledef = [system_icon_light__check,491,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 491; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 492; @position = 18; @symbol_constdef = [filename,492,18,26]; @symbol_type<0> = [String,492,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__check.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 493; @position = 18; @symbol_constdef = [dithering,493,18,27]; @symbol_type<0> = [String,493,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 496; @symbol_moduledef = [confirmation_input__reject,496,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 496; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 497 18 ]
+                symbol [ WatchUi %tmp.97 497 27 34 ];
+                %tmp.97 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.98 497 35 43 ];
+                %tmp.98 = getv %tmp.97 :KEY_DOWN;
+                putv self :button %tmp.98;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 497; @position = 18; @symbol_constdef = [button,497,18,24]; ]
+            const button;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 500; @symbol_moduledef = [system_icon_light__revert,500,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 500; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [filename,501,18,26]; @symbol_type<0> = [String,501,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__revert.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [dithering,502,18,27]; @symbol_type<0> = [String,502,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 505; @symbol_moduledef = [system_size__subwindow,505,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 505; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 506; @position = 18; @symbol_constdef = [exclude,506,18,25]; @symbol_type<0> = [Boolean,506,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 509; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,509,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 509; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 510; @position = 18; @symbol_constdef = [filename,510,18,26]; @symbol_type<0> = [String,510,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 511; @position = 18; @symbol_constdef = [dithering,511,18,27]; @symbol_type<0> = [String,511,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 514; @symbol_moduledef = [system_icon_dark__check,514,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 514; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [filename,515,18,26]; @symbol_type<0> = [String,515,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__check.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [compress,516,18,26]; @symbol_type<0> = [String,516,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [dithering,517,18,27]; @symbol_type<0> = [String,517,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 518; @position = 18; @symbol_constdef = [automaticPalette,518,18,34]; @symbol_type<0> = [String,518,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 521; @symbol_moduledef = [confirmation_loc__hint_keep,521,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 521; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 522; @position = 18; @symbol_constdef = [x,522,18,19]; @symbol_type<0> = [Number,522,23,29]; ]
+            const x as Number = 11;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 523; @position = 18; @symbol_constdef = [y,523,18,19]; @symbol_type<0> = [Number,523,23,29]; ]
+            const y as Number = 185;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [horizontalJustification,524,18,41]; @symbol_type<0> = [String,524,45,51]; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 527; @symbol_moduledef = [confirmation_loc__hint_delete,527,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 527; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 528; @position = 18; @symbol_constdef = [x,528,18,19]; @symbol_type<0> = [Number,528,23,29]; ]
+            const x as Number = 226;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 529; @position = 18; @symbol_constdef = [y,529,18,19]; @symbol_type<0> = [Number,529,23,29]; ]
+            const y as Number = 52;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 532; @symbol_moduledef = [system_icon_positive__hint_action_menu,532,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 532; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [filename,533,18,26]; @symbol_type<0> = [String,533,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 534; @position = 18; @symbol_constdef = [dithering,534,18,27]; @symbol_type<0> = [String,534,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 537; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,537,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 537; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [exclude,538,18,25]; @symbol_type<0> = [Boolean,538,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 541; @symbol_moduledef = [system_icon_light__hint_button_left_middle,541,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 541; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [filename,542,18,26]; @symbol_type<0> = [String,542,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [dithering,543,18,27]; @symbol_type<0> = [String,543,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 546; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,546,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [filename,547,18,26]; @symbol_type<0> = [String,547,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [dithering,548,18,27]; @symbol_type<0> = [String,548,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 551; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,551,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 551; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [filename,552,18,26]; @symbol_type<0> = [String,552,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [dithering,553,18,27]; @symbol_type<0> = [String,553,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 556; @symbol_moduledef = [system_icon_dark__revert,556,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 556; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 557; @position = 18; @symbol_constdef = [filename,557,18,26]; @symbol_type<0> = [String,557,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__revert.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 558; @position = 18; @symbol_constdef = [compress,558,18,26]; @symbol_type<0> = [String,558,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 559; @position = 18; @symbol_constdef = [dithering,559,18,27]; @symbol_type<0> = [String,559,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [automaticPalette,560,18,34]; @symbol_type<0> = [String,560,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 563; @symbol_moduledef = [confirmation_icon_light__hint_delete,563,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 563; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 564; @position = 18; @symbol_constdef = [filename,564,18,26]; @symbol_type<0> = [String,564,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [dithering,565,18,27]; @symbol_type<0> = [String,565,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 568; @symbol_moduledef = [system_icon_dark__question,568,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 568; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 569; @position = 18; @symbol_constdef = [filename,569,18,26]; @symbol_type<0> = [String,569,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__question.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [compress,570,18,26]; @symbol_type<0> = [String,570,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 571; @position = 18; @symbol_constdef = [dithering,571,18,27]; @symbol_type<0> = [String,571,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [automaticPalette,572,18,34]; @symbol_type<0> = [String,572,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 575; @symbol_moduledef = [system_icon_light__discard,575,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 575; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 576; @position = 18; @symbol_constdef = [filename,576,18,26]; @symbol_type<0> = [String,576,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__discard.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 577; @position = 18; @symbol_constdef = [dithering,577,18,27]; @symbol_type<0> = [String,577,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 580; @symbol_moduledef = [device_info,580,15,26]; ]
+        module device_info {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 580; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 582 18 ]
+                symbol [ Toybox %tmp.100 582 32 38 ];
+                %tmp.100 = getv ? :Toybox;
+                symbol [ System %tmp.101 582 39 45 ];
+                %tmp.101 = getv %tmp.100 :System;
+                symbol [ SCREEN_SHAPE_ROUND %tmp.102 582 46 64 ];
+                %tmp.102 = getv %tmp.101 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.102;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [screenWidth,581,18,29]; @symbol_type<0> = [Number,581,33,39]; ]
+            const screenWidth as Number = 280;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [screenShape,582,18,29]; ]
+            const screenShape;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [hasNightMode,583,18,30]; @symbol_type<0> = [Boolean,583,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [hasGpu,584,18,24]; @symbol_type<0> = [Boolean,584,28,35]; ]
+            const hasGpu as Boolean = false;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 585; @position = 18; @symbol_constdef = [screenHeight,585,18,30]; @symbol_type<0> = [Number,585,34,40]; ]
+            const screenHeight as Number = 280;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 586; @position = 18; @symbol_constdef = [hasTouchScreen,586,18,32]; @symbol_type<0> = [Boolean,586,36,43]; ]
+            const hasTouchScreen as Boolean = false;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,587,18,44]; @symbol_type<0> = [Boolean,587,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 590; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,590,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 590; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [filename,591,18,26]; @symbol_type<0> = [String,591,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [dithering,592,18,27]; @symbol_type<0> = [String,592,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 595; @symbol_moduledef = [prompt_font__body_no_title,595,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 595; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 596 18 ]
+                symbol [ Graphics %tmp.103 596 34 42 ];
+                %tmp.103 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.104 596 43 62 ];
+                %tmp.104 = getv %tmp.103 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.105 596 63 71 ];
+                %tmp.105 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.106 596 72 92 ];
+                %tmp.106 = getv %tmp.105 :TEXT_JUSTIFY_VCENTER;
+                %tmp.107 = bitor %tmp.104 %tmp.106;
+                putv self :justification %tmp.107;
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 597 18 ]
+                symbol [ Graphics %tmp.108 597 25 33 ];
+                %tmp.108 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.109 597 34 43 ];
+                %tmp.109 = getv %tmp.108 :FONT_TINY;
+                putv self :font %tmp.109;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 596; @position = 18; @symbol_constdef = [justification,596,18,31]; ]
+            const justification;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [font,597,18,22]; ]
+            const font;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 600; @symbol_moduledef = [prompt_size__title_icon,600,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 600; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 601; @position = 18; @symbol_constdef = [scaleX,601,18,24]; @symbol_type<0> = [Float,601,28,33]; ]
+            const scaleX as Float = 0.15;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 602; @position = 18; @symbol_constdef = [scaleRelativeTo,602,18,33]; @symbol_type<0> = [String,602,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 605; @symbol_moduledef = [system_icon_dark__warning,605,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 605; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [filename,606,18,26]; @symbol_type<0> = [String,606,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__warning.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 607; @position = 18; @symbol_constdef = [compress,607,18,26]; @symbol_type<0> = [String,607,30,36]; ]
+            const compress as String = "true";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 608; @position = 18; @symbol_constdef = [dithering,608,18,27]; @symbol_type<0> = [String,608,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 609; @position = 18; @symbol_constdef = [automaticPalette,609,18,34]; @symbol_type<0> = [String,609,38,44]; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 612; @symbol_moduledef = [prompt_loc__title_icon,612,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 612; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 613; @position = 18; @symbol_constdef = [x,613,18,19]; @symbol_type<0> = [Number,613,23,29]; ]
+            const x as Number = 140;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 614; @position = 18; @symbol_constdef = [y,614,18,19]; @symbol_type<0> = [Number,614,23,29]; ]
+            const y as Number = 42;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [horizontalJustification,615,18,41]; @symbol_type<0> = [String,615,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [verticalJustification,616,18,39]; @symbol_type<0> = [String,616,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 619; @symbol_moduledef = [prompt_font_enhanced_readability__title,619,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 619; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 620; @position = 18; @symbol_constdef = [exclude,620,18,25]; @symbol_type<0> = [Boolean,620,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 623; @symbol_moduledef = [prompt_color_dark__body,623,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 623; ]
+            <init> {
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" 625 18 ]
+                symbol [ Graphics %tmp.110 625 31 39 ];
+                %tmp.110 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.111 625 40 57 ];
+                %tmp.111 = getv %tmp.110 :COLOR_TRANSPARENT;
+                putv self :background %tmp.111;
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 624; @position = 18; @symbol_constdef = [color,624,18,23]; @symbol_type<0> = [Number,624,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 625; @position = 18; @symbol_constdef = [background,625,18,28]; ]
+            const background;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 628; @symbol_moduledef = [confirmation_icon__hint_delete,628,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 628; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 629; @position = 18; @symbol_constdef = [filename,629,18,26]; @symbol_type<0> = [String,629,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 630; @position = 18; @symbol_constdef = [dithering,630,18,27]; @symbol_type<0> = [String,630,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 633; @symbol_moduledef = [system_icon_light__hint_button_right_top,633,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 633; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [filename,634,18,26]; @symbol_type<0> = [String,634,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 635; @position = 18; @symbol_constdef = [dithering,635,18,27]; @symbol_type<0> = [String,635,31,37]; ]
+            const dithering as String = "none";
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 638; @symbol_moduledef = [confirmation_size__body,638,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 638; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [width,639,18,23]; @symbol_type<0> = [Number,639,27,33]; ]
+            const width as Number = 168;
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [height,640,18,24]; @symbol_type<0> = [Number,640,28,34]; ]
+            const height as Number = 168;
+        }
+        [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 643; @symbol_moduledef = [system_icon_positive__check,643,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 643; ]
+            <init> {
+            }
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [filename,644,18,26]; @symbol_type<0> = [String,644,30,36]; ]
+            const filename as String = "/Users/tom/Library/Application Support/Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_positive__check.svg";
+            [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [dithering,645,18,27]; @symbol_type<0> = [String,645,31,37]; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}

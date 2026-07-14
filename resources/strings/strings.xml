@@ -1,0 +1,9 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <string id="AppName">FossickWeather</string>
+
+    <string id="ApplicationKeyTitle">Ecowitt Application Key</string>
+    <string id="ApiKeyTitle">Ecowitt API Key</string>
+    <string id="StationMacTitle">Weather Station MAC</string>
+
+</strings>

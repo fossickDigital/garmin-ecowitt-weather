@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="1" lineNum="7" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherApp.mc" id="6" lineNum="5" parent="globals/EcowittWeatherApp" pc="268435491" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherApp.mc" id="7" lineNum="26" parent="globals" pc="268435510" symbol="getApp"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherApp.mc" id="7" lineNum="27" parent="globals" pc="268435520" symbol="getApp"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" id="8" lineNum="7" parent="globals/Rez" pc="268435536" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="9" lineNum="6" parent="globals/EcowittWeatherView" pc="268435560" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherApp.mc" id="10" lineNum="12" parent="globals/EcowittWeatherApp" pc="268435579" symbol="onStart"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherApp.mc" id="11" lineNum="20" parent="globals/EcowittWeatherApp" pc="268435582" symbol="getInitialView"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherApp.mc" id="11" lineNum="21" parent="globals/EcowittWeatherApp" pc="268435584" symbol="getInitialView"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherApp.mc" id="12" lineNum="7" parent="globals/EcowittWeatherApp" pc="268435621" symbol="initialize"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherApp.mc" id="12" lineNum="8" parent="globals/EcowittWeatherApp" pc="268435623" symbol="initialize"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherApp.mc" id="13" lineNum="16" parent="globals/EcowittWeatherApp" pc="268435642" symbol="onStop"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="14" lineNum="33" parent="globals/EcowittApi" pc="268435645" symbol="inHgTohPa"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="14" lineNum="34" parent="globals/EcowittApi" pc="268435647" symbol="inHgTohPa"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="77" parent="globals/EcowittApi" pc="268435679" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="82" parent="globals/EcowittApi" pc="268435683" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="84" parent="globals/EcowittApi" pc="268435707" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="85" parent="globals/EcowittApi" pc="268435724" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="86" parent="globals/EcowittApi" pc="268435745" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="89" parent="globals/EcowittApi" pc="268435749" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="90" parent="globals/EcowittApi" pc="268435759" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="91" parent="globals/EcowittApi" pc="268435769" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="92" parent="globals/EcowittApi" pc="268435779" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="93" parent="globals/EcowittApi" pc="268435789" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="95" parent="globals/EcowittApi" pc="268435799" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="96" parent="globals/EcowittApi" pc="268435815" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="98" parent="globals/EcowittApi" pc="268435830" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="99" parent="globals/EcowittApi" pc="268435857" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="101" parent="globals/EcowittApi" pc="268435884" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="102" parent="globals/EcowittApi" pc="268435911" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="104" parent="globals/EcowittApi" pc="268435938" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="108" parent="globals/EcowittApi" pc="268435965" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="109" parent="globals/EcowittApi" pc="268435981" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="110" parent="globals/EcowittApi" pc="268435997" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="111" parent="globals/EcowittApi" pc="268436013" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="112" parent="globals/EcowittApi" pc="268436029" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="113" parent="globals/EcowittApi" pc="268436045" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="114" parent="globals/EcowittApi" pc="268436061" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="115" parent="globals/EcowittApi" pc="268436077" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="117" parent="globals/EcowittApi" pc="268436096" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="15" lineNum="118" parent="globals/EcowittApi" pc="268436112" symbol="onResponse"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="16" lineNum="29" parent="globals/EcowittApi" pc="268436134" symbol="mphToKnots"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="16" lineNum="30" parent="globals/EcowittApi" pc="268436136" symbol="mphToKnots"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="17" lineNum="25" parent="globals/EcowittApi" pc="268436168" symbol="fahrenheitToC"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="17" lineNum="26" parent="globals/EcowittApi" pc="268436170" symbol="fahrenheitToC"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="18" lineNum="37" parent="globals/EcowittApi" pc="268436214" symbol="load"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="18" lineNum="38" parent="globals/EcowittApi" pc="268436218" symbol="load"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="18" lineNum="40" parent="globals/EcowittApi" pc="268436235" symbol="load"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="18" lineNum="41" parent="globals/EcowittApi" pc="268436253" symbol="load"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="18" lineNum="42" parent="globals/EcowittApi" pc="268436271" symbol="load"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="18" lineNum="44" parent="globals/EcowittApi" pc="268436289" symbol="load"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="18" lineNum="52" parent="globals/EcowittApi" pc="268436394" symbol="load"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="18" lineNum="53" parent="globals/EcowittApi" pc="268436415" symbol="load"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="18" lineNum="56" parent="globals/EcowittApi" pc="268436419" symbol="load"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="18" lineNum="63" parent="globals/EcowittApi" pc="268436453" symbol="load"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="18" lineNum="69" parent="globals/EcowittApi" pc="268436501" symbol="load"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="19" lineNum="11" parent="globals/EcowittApi" pc="268436539" symbol="degreesToCompass"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="19" lineNum="12" parent="globals/EcowittApi" pc="268436543" symbol="degreesToCompass"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="19" lineNum="19" parent="globals/EcowittApi" pc="268436759" symbol="degreesToCompass"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="19" lineNum="20" parent="globals/EcowittApi" pc="268436772" symbol="degreesToCompass"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittApi.mc" id="19" lineNum="22" parent="globals/EcowittApi" pc="268436803" symbol="degreesToCompass"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="21" lineNum="20" parent="globals/EcowittWeatherView" pc="268436809" symbol="onShow"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="21" lineNum="21" parent="globals/EcowittWeatherView" pc="268436813" symbol="onShow"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="21" lineNum="22" parent="globals/EcowittWeatherView" pc="268436834" symbol="onShow"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="21" lineNum="23" parent="globals/EcowittWeatherView" pc="268436858" symbol="onShow"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="22" lineNum="13" parent="globals/EcowittWeatherView" pc="268436871" symbol="onLayout"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="22" lineNum="14" parent="globals/EcowittWeatherView" pc="268436873" symbol="onLayout"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="23" lineNum="8" parent="globals/EcowittWeatherView" pc="268436915" symbol="initialize"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="23" lineNum="9" parent="globals/EcowittWeatherView" pc="268436917" symbol="initialize"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="27" parent="globals/EcowittWeatherView" pc="268436936" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="28" parent="globals/EcowittWeatherView" pc="268436940" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="29" parent="globals/EcowittWeatherView" pc="268436962" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="31" parent="globals/EcowittWeatherView" pc="268436974" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="33" parent="globals/EcowittWeatherView" pc="268436996" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="34" parent="globals/EcowittWeatherView" pc="268437009" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="37" parent="globals/EcowittWeatherView" pc="268437019" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="40" parent="globals/EcowittWeatherView" pc="268437045" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="41" parent="globals/EcowittWeatherView" pc="268437082" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="42" parent="globals/EcowittWeatherView" pc="268437128" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="43" parent="globals/EcowittWeatherView" pc="268437180" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="44" parent="globals/EcowittWeatherView" pc="268437232" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="47" parent="globals/EcowittWeatherView" pc="268437290" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="49" parent="globals/EcowittWeatherView" pc="268437330" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="50" parent="globals/EcowittWeatherView" pc="268437370" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="52" parent="globals/EcowittWeatherView" pc="268437425" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="53" parent="globals/EcowittWeatherView" pc="268437465" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="55" parent="globals/EcowittWeatherView" pc="268437520" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="56" parent="globals/EcowittWeatherView" pc="268437560" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" id="25" lineNum="57" parent="globals/EcowittWeatherView" pc="268437609" symbol="onUpdate"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" id="27" lineNum="14" parent="globals/Rez/Layouts" pc="268437650" symbol="MainLayout"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" id="27" lineNum="15" parent="globals/Rez/Layouts" pc="268437662" symbol="MainLayout"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" id="27" lineNum="16" parent="globals/Rez/Layouts" pc="268437767" symbol="MainLayout"/>
+        <entry filename="/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/bin/gen/006-B3291-00/source/Rez.mcgen" id="27" lineNum="18" parent="globals/Rez/Layouts" pc="268437831" symbol="MainLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="18" symbol="inTemp"/>
+        <entry id="6" object="true" symbol="EcowittApi"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="19" symbol="outTemp"/>
+        <entry id="25" method="true" symbol="MainLayout"/>
+        <entry id="14" method="true" symbol="inHgTohPa"/>
+        <entry field="true" id="28" symbol="ApplicationKeyTitle"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8389108" method="true" symbol="onResponse"/>
+        <entry field="true" id="27" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389594" symbol="headers"/>
+        <entry field="true" id="20" symbol="pressureTrend"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="8388964" symbol="pressure"/>
+        <entry field="true" id="8390283" symbol="windSpeed"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="29" symbol="StationMacTitle"/>
+        <entry field="true" id="24" symbol="id_monkey"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="15" method="true" symbol="load"/>
+        <entry id="9" object="true" symbol="WeatherData"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="16" method="true" symbol="mphToKnots"/>
+        <entry id="8388637" module="true" symbol="Communications"/>
+        <entry id="12" method="true" symbol="degreesToCompass"/>
+        <entry id="13" method="true" symbol="fahrenheitToC"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389844" symbol="responseType"/>
+        <entry field="true" id="17" symbol="gust"/>
+        <entry field="true" id="21" symbol="windDegrees"/>
+        <entry id="8388786" method="true" symbol="method"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="23" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="7" object="true" symbol="EcowittWeatherApp"/>
+        <entry id="8" object="true" symbol="EcowittWeatherView"/>
+        <entry id="11" module="true" symbol="Layouts"/>
+        <entry field="true" id="26" symbol="ApiKeyTitle"/>
+        <entry field="true" id="10" symbol="weather"/>
+        <entry field="true" id="22" symbol="windDir"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435678" name="pressure" stackId="1" startPc="268435645"/>
+        <entry arg="true" endPc="268436133" name="responseCode" stackId="1" startPc="268435679"/>
+        <entry arg="true" endPc="268436133" name="data" stackId="2" startPc="268435679"/>
+        <entry endPc="268436132" name="responseData" stackId="3" startPc="268435683"/>
+        <entry endPc="268436132" name="wind" stackId="4" startPc="268435683"/>
+        <entry endPc="268436132" name="outdoor" stackId="5" startPc="268435683"/>
+        <entry endPc="268436132" name="indoor" stackId="6" startPc="268435683"/>
+        <entry endPc="268436132" name="pressure" stackId="7" startPc="268435683"/>
+        <entry endPc="268436132" name="windDegrees" stackId="8" startPc="268435683"/>
+        <entry endPc="268436132" name="windDir" stackId="9" startPc="268435683"/>
+        <entry endPc="268436132" name="windSpeed" stackId="10" startPc="268435683"/>
+        <entry endPc="268436132" name="gust" stackId="11" startPc="268435683"/>
+        <entry endPc="268436132" name="outTemp" stackId="12" startPc="268435683"/>
+        <entry endPc="268436132" name="inTemp" stackId="13" startPc="268435683"/>
+        <entry endPc="268436132" name="pressureHpa" stackId="14" startPc="268435683"/>
+        <entry arg="true" endPc="268436167" name="speed" stackId="1" startPc="268436134"/>
+        <entry arg="true" endPc="268436213" name="temp" stackId="1" startPc="268436168"/>
+        <entry endPc="268436537" name="app" stackId="1" startPc="268436218"/>
+        <entry endPc="268436537" name="applicationKey" stackId="2" startPc="268436218"/>
+        <entry endPc="268436537" name="apiKey" stackId="3" startPc="268436218"/>
+        <entry endPc="268436537" name="stationMac" stackId="4" startPc="268436218"/>
+        <entry endPc="268436537" name="url" stackId="5" startPc="268436218"/>
+        <entry endPc="268436537" name="options" stackId="6" startPc="268436218"/>
+        <entry arg="true" endPc="268436808" name="degrees" stackId="1" startPc="268436539"/>
+        <entry endPc="268436808" name="dirs" stackId="2" startPc="268436543"/>
+        <entry endPc="268436808" name="deg" stackId="3" startPc="268436543"/>
+        <entry endPc="268436808" name="index" stackId="4" startPc="268436543"/>
+        <entry endPc="268436869" name="api" stackId="1" startPc="268436813"/>
+        <entry arg="true" endPc="268436914" name="dc" stackId="1" startPc="268436871"/>
+        <entry arg="true" endPc="268437649" name="dc" stackId="1" startPc="268436936"/>
+        <entry endPc="268437648" name="w" stackId="2" startPc="268436940"/>
+        <entry endPc="268437648" name="cx" stackId="3" startPc="268436940"/>
+        <entry arg="true" endPc="268437847" name="dc" stackId="1" startPc="268437650"/>
+        <entry endPc="268437847" name="rez_cmp_local_bitmap_id_monkey" stackId="2" startPc="268437662"/>
+    </localVars>
+    <deviceInfo deviceVersion="3cbcff5b61d759a7585c5fa7606e74c0bd5dfa74" partNumber="006-B3291-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="StationMacTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ApiKeyTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ApplicationKeyTitle"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/EcowittWeatherApp" offset="736" parentId="globals" symbolId="EcowittWeatherApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="807" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/EcowittApi" offset="862" parentId="globals" symbolId="EcowittApi" type="class"/>
+        <dataEntry label="globals/EcowittWeatherView" offset="957" parentId="globals" symbolId="EcowittWeatherView" type="class"/>
+        <dataEntry label="globals/WeatherData" offset="1036" parentId="globals" symbolId="WeatherData" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1147" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1194" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1233" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="EcowittWeatherApp" startPc="268435491">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435535" name="getApp" startPc="268435510">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435559" name="&lt;init&gt;" parent="Rez" startPc="268435536">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="EcowittApi">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435578" name="&lt;init&gt;" parent="EcowittWeatherView" startPc="268435560">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="WeatherData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435581" name="onStart" parent="EcowittWeatherApp" startPc="268435579">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435620" name="getInitialView" parent="EcowittWeatherApp" startPc="268435582">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435641" name="initialize" parent="EcowittWeatherApp" startPc="268435621">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435644" name="onStop" parent="EcowittWeatherApp" startPc="268435642">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435678" name="inHgTohPa" parent="EcowittApi" startPc="268435645">
+            <param id="pressure"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436133" name="onResponse" parent="EcowittApi" startPc="268435679">
+            <param id="responseCode"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436167" name="mphToKnots" parent="EcowittApi" startPc="268436134">
+            <param id="speed"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436213" name="fahrenheitToC" parent="EcowittApi" startPc="268436168">
+            <param id="temp"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436538" name="load" parent="EcowittApi" startPc="268436214">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436808" name="degreesToCompass" parent="EcowittApi" startPc="268436539">
+            <param id="degrees"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="EcowittApi">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436870" name="onShow" parent="EcowittWeatherView" startPc="268436809">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436914" name="onLayout" parent="EcowittWeatherView" startPc="268436871">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436935" name="initialize" parent="EcowittWeatherView" startPc="268436915">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="EcowittWeatherView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437649" name="onUpdate" parent="EcowittWeatherView" startPc="268436936">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="WeatherData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437847" name="MainLayout" parent="Layouts" startPc="268437650">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

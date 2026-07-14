@@ -1,0 +1,29 @@
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 1; @symbol_classdef = [WeatherData,1,6,17]; ]
+class WeatherData {
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 1; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 3; @position = 8; @symbol_vardef = [windDir,3,8,15]; ]
+    var windDir = "--";
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 4; @position = 8; @symbol_vardef = [windDegrees,4,8,19]; ]
+    var windDegrees = "--";
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 5; @position = 8; @symbol_vardef = [windSpeed,5,8,17]; ]
+    var windSpeed = "--";
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 6; @position = 8; @symbol_vardef = [gust,6,8,12]; ]
+    var gust = "--";
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 8; @position = 8; @symbol_vardef = [outTemp,8,8,15]; ]
+    var outTemp = "--";
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 9; @position = 8; @symbol_vardef = [inTemp,9,8,14]; ]
+    var inTemp = "--";
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 11; @position = 8; @symbol_vardef = [pressure,11,8,16]; ]
+    var pressure = "--";
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 12; @position = 8; @symbol_vardef = [pressureTrend,12,8,21]; ]
+    var pressureTrend = "→";
+}
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/WeatherData.mc"; @line = 1; ]
+<init> {
+}

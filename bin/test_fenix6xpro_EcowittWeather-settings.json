@@ -1,0 +1,57 @@
+{
+  "settings" : [ {
+    "key" : "applicationKey",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "ApplicationKeyTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : true,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "apiKey",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "ApiKeyTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : true,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "stationMac",
+    "valueType" : "string",
+    "defaultValue" : "",
+    "configTitle" : "StationMacTitle",
+    "configPrompt" : null,
+    "configType" : "alphaNumeric",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : true,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "StationMacTitle" : "Weather Station MAC",
+      "ApiKeyTitle" : "Ecowitt API Key",
+      "ApplicationKeyTitle" : "Ecowitt Application Key",
+      "AppName" : "FossickWeather"
+    }
+  }
+}

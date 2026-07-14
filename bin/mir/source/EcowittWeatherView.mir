@@ -1,0 +1,429 @@
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [Graphics,1,13,21]; ]
+using Toybox.Graphics;
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [System,3,13,19]; ]
+using Toybox.System;
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 6; @symbol_classdef = [EcowittWeatherView,6,6,24]; @symbol_extends<0> = [WatchUi,6,33,40]; @symbol_extends<1> = [View,6,41,45]; ]
+class EcowittWeatherView extends WatchUi.View {
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
+    function initialize() as Void {
+_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_8_26_10_4_start:
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 9 8 ]
+        symbol [ View %tmp.2 9 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 9 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_8_26_10_4_stop:
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 13; @symbol_functiondef = [onLayout,13,11,19]; @symbol_param<0> = [dc,13,20,22]; @symbol_param<0>_type<0> = [Graphics,13,26,34]; @symbol_param<0>_type<1> = [Dc,13,35,37]; ]
+    function onLayout(dc as Graphics.Dc) as Void {
+_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_13_47_15_4_start:
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 14 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 14 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 14 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 14 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ MainLayout %tmp.6 14 30 40 ];
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 14 41 43 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_13_47_15_4_stop:
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 20; @symbol_functiondef = [onShow,20,12,18]; ]
+    function onShow() as Void {
+_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_20_29_24_0_start:
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 21 4 ]
+        symbol [ System %tmp.1 21 4 10 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ println %tmp.2 21 11 18 ];
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = "Widget shown";
+        invoke %tmp.1 %tmp.2(%tmp.3);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 22 4 ]
+        [ "_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_20_29_24_0_start" "_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_20_29_24_0_stop" ]
+        %api.1 = local;
+        symbol [ api %api.1 22 8 11 ];
+        symbol [ EcowittApi %tmp.7 22 18 28 ];
+        %tmp.7 = getv ? :EcowittApi;
+        %tmp.4 = newc %tmp.7 ();
+        lputv %api.1 %tmp.4;
+        symbol [ api %api.1 22 8 11 ];
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 23 4 ]
+        %tmp.8 = lgetv %api.1;
+        symbol [ api %tmp.8 23 4 7 ];
+        symbol [ load %tmp.9 23 8 12 ];
+        %tmp.9 = getv function %tmp.8 :load;
+        invoke %tmp.8 %tmp.9();
+_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_20_29_24_0_stop:
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 27; @symbol_functiondef = [onUpdate,27,9,17]; @symbol_param<0> = [dc,27,18,20]; @symbol_param<0>_type<0> = [Graphics,27,24,32]; @symbol_param<0>_type<1> = [Dc,27,33,35]; ]
+    function onUpdate(dc as Graphics.Dc) as Void {
+_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_27_45_58_0_start:
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 28 4 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 28 4 6 ];
+        symbol [ setColor %tmp.2 28 7 15 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 28 16 24 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.4 28 25 36 ];
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        symbol [ Graphics %tmp.5 28 38 46 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.6 28 47 58 ];
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 29 4 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 29 4 6 ];
+        symbol [ clear %tmp.8 29 7 12 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 31 4 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 31 4 6 ];
+        symbol [ setColor %tmp.10 31 7 15 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        symbol [ Graphics %tmp.11 31 16 24 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.12 31 25 36 ];
+        %tmp.12 = getv %tmp.11 :COLOR_WHITE;
+        symbol [ Graphics %tmp.13 31 38 46 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.14 31 47 64 ];
+        %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 33 4 ]
+        [ "_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_27_45_58_0_start" "_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_27_45_58_0_stop" ]
+        %w.1 = local;
+        symbol [ w %w.1 33 8 9 ];
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 33 12 14 ];
+        symbol [ getWidth %tmp.16 33 15 23 ];
+        %tmp.16 = getv function %tmp.15 :getWidth;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        lputv %w.1 %tmp.17;
+        symbol [ w %w.1 33 8 9 ];
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 34 4 ]
+        [ "_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_27_45_58_0_start" "_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_27_45_58_0_stop" ]
+        %cx.2 = local;
+        symbol [ cx %cx.2 34 8 10 ];
+        %tmp.18 = lgetv %w.1;
+        symbol [ w %tmp.18 34 13 14 ];
+        %tmp.19 = 2;
+        %tmp.20 = div %tmp.18 %tmp.19;
+        lputv %cx.2 %tmp.20;
+        symbol [ cx %cx.2 34 8 10 ];
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 37 4 ]
+        %tmp.21 = lgetv %dc;
+        symbol [ dc %tmp.21 37 4 6 ];
+        symbol [ drawLine %tmp.22 37 7 15 ];
+        %tmp.22 = getv function %tmp.21 :drawLine;
+        %tmp.23 = lgetv %cx.2;
+        symbol [ cx %tmp.23 37 16 18 ];
+        %tmp.24 = 65;
+        %tmp.25 = lgetv %cx.2;
+        symbol [ cx %tmp.25 37 24 26 ];
+        %tmp.26 = 225;
+        invoke %tmp.21 %tmp.22(%tmp.23, %tmp.24, %tmp.25, %tmp.26);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 40 0 ]
+        %tmp.27 = lgetv %dc;
+        symbol [ dc %tmp.27 40 0 2 ];
+        symbol [ drawText %tmp.28 40 3 11 ];
+        %tmp.28 = getv function %tmp.27 :drawText;
+        %tmp.29 = 35;
+        %tmp.30 = 55;
+        symbol [ Graphics %tmp.31 40 20 28 ];
+        %tmp.31 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.32 40 29 39 ];
+        %tmp.32 = getv %tmp.31 :FONT_SMALL;
+        %tmp.33 = "WIND";
+        symbol [ Graphics %tmp.34 40 49 57 ];
+        %tmp.34 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.35 40 58 75 ];
+        %tmp.35 = getv %tmp.34 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.27 %tmp.28(%tmp.29, %tmp.30, %tmp.32, %tmp.33, %tmp.35);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 41 0 ]
+        %tmp.36 = lgetv %dc;
+        symbol [ dc %tmp.36 41 0 2 ];
+        symbol [ drawText %tmp.37 41 3 11 ];
+        %tmp.37 = getv function %tmp.36 :drawText;
+        %tmp.38 = 35;
+        %tmp.39 = 85;
+        symbol [ Graphics %tmp.40 41 20 28 ];
+        %tmp.40 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.41 41 29 39 ];
+        %tmp.41 = getv %tmp.40 :FONT_LARGE;
+        symbol [ weather %tmp.43 41 41 48 ];
+        %tmp.43 = getv ? :weather;
+        symbol [ windDir %tmp.44 41 49 56 ];
+        %tmp.44 = getv %tmp.43 :windDir;
+        symbol [ Graphics %tmp.45 41 58 66 ];
+        %tmp.45 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.46 41 67 84 ];
+        %tmp.46 = getv %tmp.45 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.36 %tmp.37(%tmp.38, %tmp.39, %tmp.41, %tmp.44, %tmp.46);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 42 0 ]
+        %tmp.47 = lgetv %dc;
+        symbol [ dc %tmp.47 42 0 2 ];
+        symbol [ drawText %tmp.48 42 3 11 ];
+        %tmp.48 = getv function %tmp.47 :drawText;
+        %tmp.49 = 35;
+        %tmp.50 = 125;
+        symbol [ Graphics %tmp.51 42 21 29 ];
+        %tmp.51 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.52 42 30 40 ];
+        %tmp.52 = getv %tmp.51 :FONT_SMALL;
+        symbol [ weather %tmp.54 42 42 49 ];
+        %tmp.54 = getv ? :weather;
+        symbol [ windDegrees %tmp.55 42 50 61 ];
+        %tmp.55 = getv %tmp.54 :windDegrees;
+        %tmp.56 = "°";
+        %tmp.57 = add %tmp.55 %tmp.56;
+        symbol [ Graphics %tmp.58 42 69 77 ];
+        %tmp.58 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.59 42 78 95 ];
+        %tmp.59 = getv %tmp.58 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.47 %tmp.48(%tmp.49, %tmp.50, %tmp.52, %tmp.57, %tmp.59);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 43 0 ]
+        %tmp.60 = lgetv %dc;
+        symbol [ dc %tmp.60 43 0 2 ];
+        symbol [ drawText %tmp.61 43 3 11 ];
+        %tmp.61 = getv function %tmp.60 :drawText;
+        %tmp.62 = 35;
+        %tmp.63 = 155;
+        symbol [ Graphics %tmp.64 43 21 29 ];
+        %tmp.64 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.65 43 30 41 ];
+        %tmp.65 = getv %tmp.64 :FONT_MEDIUM;
+        symbol [ weather %tmp.67 43 43 50 ];
+        %tmp.67 = getv ? :weather;
+        symbol [ windSpeed %tmp.68 43 51 60 ];
+        %tmp.68 = getv %tmp.67 :windSpeed;
+        %tmp.69 = " kt";
+        %tmp.70 = add %tmp.68 %tmp.69;
+        symbol [ Graphics %tmp.71 43 70 78 ];
+        %tmp.71 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.72 43 79 96 ];
+        %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.60 %tmp.61(%tmp.62, %tmp.63, %tmp.65, %tmp.70, %tmp.72);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 44 0 ]
+        %tmp.73 = lgetv %dc;
+        symbol [ dc %tmp.73 44 0 2 ];
+        symbol [ drawText %tmp.74 44 3 11 ];
+        %tmp.74 = getv function %tmp.73 :drawText;
+        %tmp.75 = 35;
+        %tmp.76 = 185;
+        symbol [ Graphics %tmp.77 44 21 29 ];
+        %tmp.77 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.78 44 30 40 ];
+        %tmp.78 = getv %tmp.77 :FONT_SMALL;
+        %tmp.79 = "G ";
+        symbol [ weather %tmp.81 44 49 56 ];
+        %tmp.81 = getv ? :weather;
+        symbol [ gust %tmp.82 44 57 61 ];
+        %tmp.82 = getv %tmp.81 :gust;
+        %tmp.83 = add %tmp.79 %tmp.82;
+        %tmp.84 = " kt";
+        %tmp.85 = add %tmp.83 %tmp.84;
+        symbol [ Graphics %tmp.86 44 71 79 ];
+        %tmp.86 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.87 44 80 97 ];
+        %tmp.87 = getv %tmp.86 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.73 %tmp.74(%tmp.75, %tmp.76, %tmp.78, %tmp.85, %tmp.87);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 47 0 ]
+        %tmp.88 = lgetv %dc;
+        symbol [ dc %tmp.88 47 0 2 ];
+        symbol [ drawText %tmp.89 47 3 11 ];
+        %tmp.89 = getv function %tmp.88 :drawText;
+        %tmp.90 = lgetv %cx.2;
+        symbol [ cx %tmp.90 47 12 14 ];
+        %tmp.91 = 15;
+        %tmp.92 = add %tmp.90 %tmp.91;
+        %tmp.93 = 55;
+        symbol [ Graphics %tmp.94 47 25 33 ];
+        %tmp.94 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.95 47 34 44 ];
+        %tmp.95 = getv %tmp.94 :FONT_SMALL;
+        %tmp.96 = "TEMP";
+        symbol [ Graphics %tmp.97 47 54 62 ];
+        %tmp.97 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.98 47 63 80 ];
+        %tmp.98 = getv %tmp.97 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.88 %tmp.89(%tmp.92, %tmp.93, %tmp.95, %tmp.96, %tmp.98);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 49 0 ]
+        %tmp.99 = lgetv %dc;
+        symbol [ dc %tmp.99 49 0 2 ];
+        symbol [ drawText %tmp.100 49 3 11 ];
+        %tmp.100 = getv function %tmp.99 :drawText;
+        %tmp.101 = lgetv %cx.2;
+        symbol [ cx %tmp.101 49 12 14 ];
+        %tmp.102 = 15;
+        %tmp.103 = add %tmp.101 %tmp.102;
+        %tmp.104 = 90;
+        symbol [ Graphics %tmp.105 49 25 33 ];
+        %tmp.105 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.106 49 34 44 ];
+        %tmp.106 = getv %tmp.105 :FONT_SMALL;
+        %tmp.107 = "O";
+        symbol [ Graphics %tmp.108 49 51 59 ];
+        %tmp.108 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.109 49 60 77 ];
+        %tmp.109 = getv %tmp.108 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.99 %tmp.100(%tmp.103, %tmp.104, %tmp.106, %tmp.107, %tmp.109);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 50 0 ]
+        %tmp.110 = lgetv %dc;
+        symbol [ dc %tmp.110 50 0 2 ];
+        symbol [ drawText %tmp.111 50 3 11 ];
+        %tmp.111 = getv function %tmp.110 :drawText;
+        %tmp.112 = lgetv %w.1;
+        symbol [ w %tmp.112 50 12 13 ];
+        %tmp.113 = 20;
+        %tmp.114 = sub %tmp.112 %tmp.113;
+        %tmp.115 = 90;
+        symbol [ Graphics %tmp.116 50 24 32 ];
+        %tmp.116 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.117 50 33 44 ];
+        %tmp.117 = getv %tmp.116 :FONT_MEDIUM;
+        symbol [ weather %tmp.119 50 46 53 ];
+        %tmp.119 = getv ? :weather;
+        symbol [ outTemp %tmp.120 50 54 61 ];
+        %tmp.120 = getv %tmp.119 :outTemp;
+        %tmp.121 = "°";
+        %tmp.122 = add %tmp.120 %tmp.121;
+        symbol [ Graphics %tmp.123 50 69 77 ];
+        %tmp.123 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.124 50 78 96 ];
+        %tmp.124 = getv %tmp.123 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.110 %tmp.111(%tmp.114, %tmp.115, %tmp.117, %tmp.122, %tmp.124);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 52 0 ]
+        %tmp.125 = lgetv %dc;
+        symbol [ dc %tmp.125 52 0 2 ];
+        symbol [ drawText %tmp.126 52 3 11 ];
+        %tmp.126 = getv function %tmp.125 :drawText;
+        %tmp.127 = lgetv %cx.2;
+        symbol [ cx %tmp.127 52 12 14 ];
+        %tmp.128 = 15;
+        %tmp.129 = add %tmp.127 %tmp.128;
+        %tmp.130 = 120;
+        symbol [ Graphics %tmp.131 52 26 34 ];
+        %tmp.131 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.132 52 35 45 ];
+        %tmp.132 = getv %tmp.131 :FONT_SMALL;
+        %tmp.133 = "I";
+        symbol [ Graphics %tmp.134 52 52 60 ];
+        %tmp.134 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.135 52 61 78 ];
+        %tmp.135 = getv %tmp.134 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.125 %tmp.126(%tmp.129, %tmp.130, %tmp.132, %tmp.133, %tmp.135);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 53 0 ]
+        %tmp.136 = lgetv %dc;
+        symbol [ dc %tmp.136 53 0 2 ];
+        symbol [ drawText %tmp.137 53 3 11 ];
+        %tmp.137 = getv function %tmp.136 :drawText;
+        %tmp.138 = lgetv %w.1;
+        symbol [ w %tmp.138 53 12 13 ];
+        %tmp.139 = 20;
+        %tmp.140 = sub %tmp.138 %tmp.139;
+        %tmp.141 = 120;
+        symbol [ Graphics %tmp.142 53 25 33 ];
+        %tmp.142 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.143 53 34 45 ];
+        %tmp.143 = getv %tmp.142 :FONT_MEDIUM;
+        symbol [ weather %tmp.145 53 47 54 ];
+        %tmp.145 = getv ? :weather;
+        symbol [ inTemp %tmp.146 53 55 61 ];
+        %tmp.146 = getv %tmp.145 :inTemp;
+        %tmp.147 = "°";
+        %tmp.148 = add %tmp.146 %tmp.147;
+        symbol [ Graphics %tmp.149 53 69 77 ];
+        %tmp.149 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.150 53 78 96 ];
+        %tmp.150 = getv %tmp.149 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.136 %tmp.137(%tmp.140, %tmp.141, %tmp.143, %tmp.148, %tmp.150);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 55 0 ]
+        %tmp.151 = lgetv %dc;
+        symbol [ dc %tmp.151 55 0 2 ];
+        symbol [ drawText %tmp.152 55 3 11 ];
+        %tmp.152 = getv function %tmp.151 :drawText;
+        %tmp.153 = lgetv %cx.2;
+        symbol [ cx %tmp.153 55 12 14 ];
+        %tmp.154 = 15;
+        %tmp.155 = add %tmp.153 %tmp.154;
+        %tmp.156 = 165;
+        symbol [ Graphics %tmp.157 55 26 34 ];
+        %tmp.157 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.158 55 35 45 ];
+        %tmp.158 = getv %tmp.157 :FONT_SMALL;
+        %tmp.159 = "PRES";
+        symbol [ Graphics %tmp.160 55 55 63 ];
+        %tmp.160 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.161 55 64 81 ];
+        %tmp.161 = getv %tmp.160 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.151 %tmp.152(%tmp.155, %tmp.156, %tmp.158, %tmp.159, %tmp.161);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 56 0 ]
+        %tmp.162 = lgetv %dc;
+        symbol [ dc %tmp.162 56 0 2 ];
+        symbol [ drawText %tmp.163 56 3 11 ];
+        %tmp.163 = getv function %tmp.162 :drawText;
+        %tmp.164 = lgetv %cx.2;
+        symbol [ cx %tmp.164 56 12 14 ];
+        %tmp.165 = 15;
+        %tmp.166 = add %tmp.164 %tmp.165;
+        %tmp.167 = 190;
+        symbol [ Graphics %tmp.168 56 26 34 ];
+        %tmp.168 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.169 56 35 45 ];
+        %tmp.169 = getv %tmp.168 :FONT_SMALL;
+        symbol [ weather %tmp.171 56 47 54 ];
+        %tmp.171 = getv ? :weather;
+        symbol [ pressure %tmp.172 56 55 63 ];
+        %tmp.172 = getv %tmp.171 :pressure;
+        symbol [ Graphics %tmp.173 56 65 73 ];
+        %tmp.173 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.174 56 74 91 ];
+        %tmp.174 = getv %tmp.173 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.162 %tmp.163(%tmp.166, %tmp.167, %tmp.169, %tmp.172, %tmp.174);
+[ "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc" 57 0 ]
+        %tmp.175 = lgetv %dc;
+        symbol [ dc %tmp.175 57 0 2 ];
+        symbol [ drawText %tmp.176 57 3 11 ];
+        %tmp.176 = getv function %tmp.175 :drawText;
+        %tmp.177 = lgetv %w.1;
+        symbol [ w %tmp.177 57 12 13 ];
+        %tmp.178 = 30;
+        %tmp.179 = sub %tmp.177 %tmp.178;
+        %tmp.180 = 190;
+        symbol [ Graphics %tmp.181 57 25 33 ];
+        %tmp.181 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.182 57 34 44 ];
+        %tmp.182 = getv %tmp.181 :FONT_SMALL;
+        %tmp.183 = "=";
+        symbol [ Graphics %tmp.184 57 51 59 ];
+        %tmp.184 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_RIGHT %tmp.185 57 60 78 ];
+        %tmp.185 = getv %tmp.184 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.175 %tmp.176(%tmp.179, %tmp.180, %tmp.182, %tmp.183, %tmp.185);
+_Users_tom_Library_Mobile_Documents_com_apple_CloudDocs_Work_garmin_EcowittWeather_source_EcowittWeatherView_mc_27_45_58_0_stop:
+    }
+    [ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 63; @symbol_functiondef = [onHide,63,13,19]; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Work/garmin/EcowittWeather/source/EcowittWeatherView.mc"; @line = 1; ]
+<init> {
+}
